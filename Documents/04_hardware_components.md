@@ -3,7 +3,8 @@
 ## Table of Contents
 - [MQ-5 Gas Sensor](#mq-5-gas-sensor)
 - [BME680 - Environment Sensor](#bme680---environment-sensor)
-
+- Wifi Module
+- Arduino Nano (with Wifi on board if possible)
 ---
 
 This section describes the main hardware components used in the proposed gas leakage detection system. Each component is selected based on availability, suitability for HVAC environments, and compatibility with low-cost embedded systems.
