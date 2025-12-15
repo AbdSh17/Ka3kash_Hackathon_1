@@ -1,35 +1,48 @@
 # Problem Statement
 
-HVAC systems use ducts to deliver conditioned air to indoor spaces. In real installations, a noticeable amount of this air is lost due to leakage in ducts caused by poor sealing, aging materials, or installation issues. These leaks are usually hidden and remain undetected for long periods.
+Many HVAC systems rely on **gas-powered heating components**, such as furnaces or boilers, to provide indoor heating. In real-world installations, gas leakage may occur due to:
 
-Air leakage forces HVAC systems to work longer to maintain the desired temperature, leading to higher energy consumption, increased operating cost, and reduced efficiency. It can also cause uneven air distribution across different areas of a building.
+- Aging gas pipelines and fittings  
+- Faulty or loose connections  
+- Improper installation practices  
+- Equipment malfunctions or wear over time  
 
-In addition to energy loss, duct leakage can negatively affect air quality. Leaks may allow unfiltered or contaminated air to enter the system, creating unhealthy or unsafe indoor environments.
+These leaks often occur in HVAC rooms or enclosed spaces and can remain undetected for long periods.
 
-Most existing solutions rely on manual inspection or periodic testing, which does not provide continuous monitoring. As a result, air leakage and air quality issues are often detected late.
+Undetected gas leakage poses serious safety risks, including:
+- Fire hazards and explosions  
+- Carbon monoxide poisoning  
+- Degradation of indoor air quality  
 
-The problem addressed in this project is the lack of a simple, low-cost system that can continuously monitor airflow and air quality in HVAC ducts and identify leakage during normal operation.
+Because HVAC systems circulate air throughout a building, leaked gas can spread beyond the source, increasing the potential impact on occupants.
+
+Most existing gas detection solutions rely on:
+- Standalone gas or CO alarms  
+- Manual inspection and periodic testing  
+
+Such approaches do not provide continuous monitoring, system-level response, or integration with modern HVAC control systems. As a result, gas leaks are often detected late, after hazardous conditions have already developed.
+
+The problem addressed in this project is the lack of a **simple, low-cost system** that can continuously monitor gas levels in HVAC environments, provide early-warning alerts, and support **manual or automated shutdown actions** during normal operation.
+
 
 ## Supporting Statistics
 
-- Studies by the U.S. Department of Energy report that **duct leakage can account for 20–30% of total conditioned air loss** in residential and commercial HVAC systems.  
-  This loss directly translates into wasted energy and higher operating costs.
+- According to the **National Fire Protection Association (NFPA)**, structure fires involving **flammable gases account for approximately 2–3% of all reported structure fires** in recent years, showing that gas-related fires remain a consistent and significant safety concern.
 
-- Sealing air leaks around your home and adding insulation can help your home be more comfortable and energy efficient and *provide up to a 10% savings on your annual energy bills*
+- NFPA research indicates that when **flammable gas escapes from a pipe or container**, these incidents are responsible for a **disproportionately high impact**, contributing to:
+  - Around **18% of structure fires**
+  - Approximately **17% of civilian fire-related deaths**
+  - Nearly **20% of direct property damage losses**
 
-- Leaky ducts are a major source of energy loss and comfort problems, especially in residential buildings
+- Fires in which **flammable gas is the first-ignited fuel source** are associated with more severe outcomes compared to many other types of structure fires, highlighting the importance of early gas detection and rapid response mechanisms.
+
+- The **U.S. Environmental Protection Agency (EPA)** identifies fuel-burning HVAC equipment as a common source of indoor air pollutants, including carbon monoxide.
+
 
 ### References
-- U.S. Department of Energy (DOE), *Energy Efficiency and Renewable Energy – Duct Sealing and Duct Leakage*  
-  https://www.energystar.gov/saveathome/heating-cooling/duct-sealing
 
-- U.S. Department of Energy (DOE), *Energy Efficiency and Renewable Energy - Seal and Insulate with ENERGY STAR*
-  https://www.energystar.gov/saveathome/seal_insulate
+- National Fire Protection Association (NFPA), *Structure Fires Involving Flammable Gases*, NFPA Research.  
+  https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/structure-fires-involving-flammable-gases
 
-- Building America Solution Center, U.S. Department of Energy.  
-"Total Duct Leakage Tests."  
-    https://basc.pnnl.gov/resource-guides/total-duct-leakage-tests#edit-group-description
-
-
-
-
+- U.S. Environmental Protection Agency (EPA), *Indoor Air Quality – Carbon Monoxide*  
+  https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxide-poisoning
