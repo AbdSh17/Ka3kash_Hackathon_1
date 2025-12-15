@@ -335,20 +335,7 @@ This prevents long ISR time and avoids messing with ADC / serial inside interrup
 
 ---
 
-## 10) Recommended flow (how to use all pieces together)
-
-1. `MQ5_init(...)` (provide your `buffer[]` array)
-2. `MQ5_timerSetup()`
-3. ISR sets `mq5_tick = true`
-4. In `loop()`:
-   - if tick: call `MQ5_update(&mq5)`
-   - if warmed up and baseline not yet captured: `MQ5_captureBaseline(&mq5)`
-   - check `MQ5_leakDetected(&mq5)`
-   - take action (alarm, fan, log, etc.)
-
----
-
-## 11) Quick “mental model” summary
+## 10) Quick “mental model” summary
 
 - `MQ5_update()` maintains a circular window of the last `samplesNumber` ADC readings.
 - `sum` is always the sum of the window values (or partial window before wrap).
